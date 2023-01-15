@@ -29,6 +29,7 @@ body {
 
 .logo {
   font-size: 20px;
+  align-items: center;
   color: #4dbf00;
 }
 
@@ -267,8 +268,12 @@ body {
   background-color: white;
 }
 
+.movie-list-title{
+  color: #ffffff;
+}
+
 .movie-list-title.active {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .navbar-container.active {
